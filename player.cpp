@@ -35,8 +35,8 @@ public:
 	coin(std::string text, sf::Vector2f coincoor){
 		texture.loadFromFile(text);
 		sprite.setTexture(texture);
-		//sprite.setScale(0.3, 0.3);
-		rec.setSize(sf::Vector2f(192 * 0.3, 256 * 0.3));
+		//sprite.setScale(0.2, 0.2);
+		rec.setSize(sf::Vector2f(192 * 0.2, 256 * 0.2));
 		coord = coincoor;
 		sprite.setPosition(coord);
 		rec.setPosition(coord);
